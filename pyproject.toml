@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "HtmlPlaceholder"
+version = "1.0.0"
+description = "Мини платформа для просмотра HTML без браузеров (сделана на QtWebEngine)"
+authors = [
+    { name = "Maxplay Codder", email = "orbibot37@gmail.com" }
+]
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "PySide6>=6.5",
+]
+
+[tool.setuptools]
+py-modules = ["HTMLPlaceholderDesktop"]
+
+[project.scripts]
+htmlplaceholder = "HTMLPlaceholderDesktop:init"
