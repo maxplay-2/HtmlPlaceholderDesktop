@@ -10,7 +10,7 @@ pip install git+https://github.com/maxplay-2/HtmlPlaceholderDesktop.git
 htmlplaceholder
 ```
 
-## если у вас не установлен git
+## если у вас не установлен git , If you don’t have Git installed
 ```bash
 curl -L -O https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/Git-2.52.0-64-bit.exe  (для Windows/for Windows)
 apt-get install git (для линукс/for linux)
