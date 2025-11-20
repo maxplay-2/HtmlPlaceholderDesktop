@@ -16,3 +16,8 @@ curl -L -O https://github.com/git-for-windows/git/releases/download/v2.52.0.wind
 apt-get install git (для линукс/for linux)
 $ sudo port install git (for MacOS / для MacOs)
 ```
+
+# документация / documentation
+[клик](https://maxplay-2.github.io/PyHtmlPLaceholderDocs)
+
+[click](https://maxplay-2.github.io/PyHtmlPLaceholderDocs)
